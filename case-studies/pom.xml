@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.wfinance</groupId>
+        <artifactId>wfinance-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>case-studies</artifactId>
+    <name>Case Studies</name>
+    <description>交易案例研究：传奇交易者、市场事件、策略回测</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wfinance</groupId>
+            <artifactId>core-model</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wfinance</groupId>
+            <artifactId>strategy-engine</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wfinance</groupId>
+            <artifactId>backtest-engine</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>

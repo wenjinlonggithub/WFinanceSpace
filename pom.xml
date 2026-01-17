@@ -10,8 +10,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>WFinance Trading Strategies</name>
-    <description>开源金融交易策略框架 - 涵盖所有市场和策略的完整交易系统</description>
+    <name>Trading Philosophy Lab</name>
+    <description>交易哲学实验室 - 使用代码模拟交易策略、哲学、心理和法律合规的教育研究框架</description>
 
     <properties>
         <java.version>17</java.version>
@@ -30,32 +30,44 @@
     </properties>
 
     <modules>
-        <!-- 核心层 -->
+        <!-- 核心基础层 (Foundation Support) -->
         <module>core-model</module>
         <module>core-common</module>
 
-        <!-- 数据层 -->
-        <module>data-provider</module>
-        <module>data-provider-stock</module>
-        <module>data-provider-futures</module>
-        <module>data-provider-forex</module>
-        <module>data-provider-crypto</module>
+        <!-- 哲学层 (Philosophy Core) -->
+        <module>trading-philosophies</module>
 
-        <!-- 策略层 -->
+        <!-- 战法层 (Tactics Implementation) -->
         <module>strategy-engine</module>
         <module>indicators</module>
         <module>strategies-classic</module>
         <module>strategies-quantitative</module>
         <module>strategies-fundamental</module>
 
-        <!-- 执行层 -->
+        <!-- 案例层 (Success Cases) -->
+        <module>case-studies</module>
+
+        <!-- 心理层 (Psychology & Mindset) -->
+        <module>trading-psychology</module>
+
+        <!-- 法律合规层 (Legal & Compliance) -->
+        <module>legal-compliance</module>
+
+        <!-- 模拟引擎层 (Simulation Support) -->
         <module>backtest-engine</module>
+        <module>data-provider</module>
+
+        <!-- 待简化/移除的模块 (To be simplified/removed) -->
+        <!--
+        <module>data-provider-stock</module>
+        <module>data-provider-futures</module>
+        <module>data-provider-forex</module>
+        <module>data-provider-crypto</module>
         <module>risk-management</module>
         <module>order-execution</module>
-
-        <!-- 分析层 -->
         <module>performance-analysis</module>
         <module>visualization</module>
+        -->
     </modules>
 
     <dependencyManagement>
