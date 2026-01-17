@@ -6,39 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="data-provider-futures" />
-        <module name="visualization" />
         <module name="strategy-engine" />
         <module name="strategies-classic" />
         <module name="core-common" />
         <module name="strategies-quantitative" />
         <module name="data-provider" />
-        <module name="data-provider-forex" />
         <module name="indicators" />
         <module name="scalping" />
         <module name="backtest-engine" />
-        <module name="performance-analysis" />
         <module name="swing" />
-        <module name="risk-management" />
         <module name="examples" />
         <module name="core-model" />
         <module name="strategies-fundamental" />
-        <module name="data-provider-crypto" />
         <module name="position" />
-        <module name="order-execution" />
         <module name="trend-following" />
-        <module name="data-provider-stock" />
         <module name="mean-reversion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="examples" target="17" />
-      <module name="mean-reversion" target="17" />
-      <module name="position" target="17" />
-      <module name="scalping" target="17" />
-      <module name="swing" target="17" />
-      <module name="trading-philosophies" target="17" />
-      <module name="trend-following" target="17" />
+      <module name="data-provider-crypto" target="17" />
+      <module name="data-provider-forex" target="17" />
+      <module name="data-provider-futures" target="17" />
+      <module name="data-provider-stock" target="17" />
+      <module name="order-execution" target="17" />
+      <module name="performance-analysis" target="17" />
+      <module name="risk-management" target="17" />
+      <module name="visualization" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
